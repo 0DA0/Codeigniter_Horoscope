@@ -1,0 +1,451 @@
+INFO - 2024-12-21 13:08:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 16:48:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 16:48:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 16:48:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 16:48:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 16:48:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 16:49:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 17:03:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-21 17:08:33 --> include(header.php): failed to open stream: No such file or directory
+in APPPATH\Views\sayfalar\BurçHesaplama.php on line 52.
+ 1 APPPATH\Views\sayfalar\BurçHesaplama.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(header.php): failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Burc_Proje\\app\\Views\\sayfalar\\BurçHesaplama.php', 52, [])
+ 2 APPPATH\Views\sayfalar\BurçHesaplama.php(52): include()
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Burc_Proje\\app\\Views\\sayfalar\\BurçHesaplama.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('sayfalar/BurçHesaplama', [], true)
+ 6 APPPATH\Controllers\Menuler.php(21): view('sayfalar/BurçHesaplama')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Menuler->GunlukYorum()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menuler))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-21 17:09:23 --> Invalid file: "sayfalar/.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sayfalar/.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('sayfalar/', [], true)
+ 3 APPPATH\Controllers\Menuler.php(21): view('sayfalar/')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Menuler->GunlukYorum()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menuler))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-21 17:10:47 --> include(header.php): failed to open stream: No such file or directory
+in APPPATH\Views\sayfalar\GünlükBurçYorumu.php on line 10.
+ 1 APPPATH\Views\sayfalar\GünlükBurçYorumu.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(header.php): failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Burc_Proje\\app\\Views\\sayfalar\\GünlükBurçYorumu.php', 10, [])
+ 2 APPPATH\Views\sayfalar\GünlükBurçYorumu.php(10): include()
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Burc_Proje\\app\\Views\\sayfalar\\GünlükBurçYorumu.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('sayfalar/GünlükBurçYorumu', [], true)
+ 6 APPPATH\Controllers\Menuler.php(21): view('sayfalar/GünlükBurçYorumu')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Menuler->GunlukYorum()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menuler))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-21 17:11:00 --> Undefined variable: baglan
+in APPPATH\Views\sayfalar\GünlükBurçYorumu.php on line 72.
+ 1 APPPATH\Views\sayfalar\GünlükBurçYorumu.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: baglan', 'C:\\xampp\\htdocs\\Burc_Proje\\app\\Views\\sayfalar\\GünlükBurçYorumu.php', 72, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Burc_Proje\\app\\Views\\sayfalar\\GünlükBurçYorumu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('sayfalar/GünlükBurçYorumu', [], true)
+ 5 APPPATH\Controllers\Menuler.php(21): view('sayfalar/GünlükBurçYorumu')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Menuler->GunlukYorum()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menuler))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-21 17:12:10 --> Undefined variable: sonuc
+in APPPATH\Views\sayfalar\GünlükBurçYorumu.php on line 77.
+ 1 APPPATH\Views\sayfalar\GünlükBurçYorumu.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: sonuc', 'C:\\xampp\\htdocs\\Burc_Proje\\app\\Views\\sayfalar\\GünlükBurçYorumu.php', 77, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Burc_Proje\\app\\Views\\sayfalar\\GünlükBurçYorumu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('sayfalar/GünlükBurçYorumu', [], true)
+ 5 APPPATH\Controllers\Menuler.php(21): view('sayfalar/GünlükBurçYorumu')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Menuler->GunlukYorum()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menuler))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-21 17:13:59 --> include(header.php): failed to open stream: No such file or directory
+in APPPATH\Views\sayfalar\YükselenHesaplama.php on line 75.
+ 1 APPPATH\Views\sayfalar\YükselenHesaplama.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(header.php): failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Burc_Proje\\app\\Views\\sayfalar\\YükselenHesaplama.php', 75, [])
+ 2 APPPATH\Views\sayfalar\YükselenHesaplama.php(75): include()
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Burc_Proje\\app\\Views\\sayfalar\\YükselenHesaplama.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('sayfalar/YükselenHesaplama', [], true)
+ 6 APPPATH\Controllers\Menuler.php(29): view('sayfalar/YükselenHesaplama')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Menuler->YukselenHesaplama()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menuler))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-21 17:15:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 17:16:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 17:16:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 17:16:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 17:18:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 17:18:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 17:20:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 17:20:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 17:24:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 17:24:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 17:24:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 17:25:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 17:25:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-21 17:25:57 --> Undefined variable: kullanici_adi
+in APPPATH\Views\sayfalar\Admin\Ana_Sayfa.php on line 153.
+ 1 APPPATH\Views\sayfalar\Admin\Ana_Sayfa.php(153): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: kullanici_adi', 'C:\\xampp\\htdocs\\Burc_Proje\\app\\Views\\sayfalar\\Admin\\Ana_Sayfa.php', 153, [])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Burc_Proje\\app\\Views\\sayfalar\\Admin\\Ana_Sayfa.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('sayfalar/Admin/Ana_Sayfa', [], true)
+ 5 APPPATH\Controllers\Menuler.php(33): view('sayfalar/Admin/Ana_Sayfa')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Menuler->AnamenuAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menuler))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-21 17:26:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 17:26:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 17:26:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 17:26:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 17:26:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 17:26:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 17:27:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 17:27:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 17:27:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 17:27:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-21 17:29:18 --> Undefined variable: kullanici_adi
+in APPPATH\Views\sayfalar\Admin\Ana_Sayfa.php on line 153.
+ 1 APPPATH\Views\sayfalar\Admin\Ana_Sayfa.php(153): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: kullanici_adi', 'C:\\xampp\\htdocs\\Burc_Proje\\app\\Views\\sayfalar\\Admin\\Ana_Sayfa.php', 153, [])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Burc_Proje\\app\\Views\\sayfalar\\Admin\\Ana_Sayfa.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('sayfalar/Admin/Ana_Sayfa', [], true)
+ 5 APPPATH\Controllers\Menuler.php(33): view('sayfalar/Admin/Ana_Sayfa')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Menuler->AnamenuAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menuler))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-21 17:30:23 --> Undefined variable: kullanici_adi
+in APPPATH\Views\sayfalar\Admin\Ana_Sayfa.php on line 153.
+ 1 APPPATH\Views\sayfalar\Admin\Ana_Sayfa.php(153): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: kullanici_adi', 'C:\\xampp\\htdocs\\Burc_Proje\\app\\Views\\sayfalar\\Admin\\Ana_Sayfa.php', 153, [])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Burc_Proje\\app\\Views\\sayfalar\\Admin\\Ana_Sayfa.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('sayfalar/Admin/Ana_Sayfa', [], true)
+ 5 APPPATH\Controllers\Menuler.php(33): view('sayfalar/Admin/Ana_Sayfa')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Menuler->AnamenuAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menuler))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-21 17:34:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 17:34:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-21 17:34:39 --> Undefined variable: kullanici_adi
+in APPPATH\Views\sayfalar\Admin\Ana_Sayfa.php on line 151.
+ 1 APPPATH\Views\sayfalar\Admin\Ana_Sayfa.php(151): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: kullanici_adi', 'C:\\xampp\\htdocs\\Burc_Proje\\app\\Views\\sayfalar\\Admin\\Ana_Sayfa.php', 151, [])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Burc_Proje\\app\\Views\\sayfalar\\Admin\\Ana_Sayfa.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('sayfalar/Admin/Ana_Sayfa', [], true)
+ 5 APPPATH\Controllers\Menuler.php(33): view('sayfalar/Admin/Ana_Sayfa')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Menuler->AnamenuAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menuler))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-21 17:34:54 --> Undefined variable: kullanici_adi
+in APPPATH\Views\sayfalar\Admin\Ana_Sayfa.php on line 153.
+ 1 APPPATH\Views\sayfalar\Admin\Ana_Sayfa.php(153): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: kullanici_adi', 'C:\\xampp\\htdocs\\Burc_Proje\\app\\Views\\sayfalar\\Admin\\Ana_Sayfa.php', 153, [])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Burc_Proje\\app\\Views\\sayfalar\\Admin\\Ana_Sayfa.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('sayfalar/Admin/Ana_Sayfa', [], true)
+ 5 APPPATH\Controllers\Menuler.php(33): view('sayfalar/Admin/Ana_Sayfa')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Menuler->AnamenuAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menuler))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-21 17:47:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 17:47:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 17:53:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 17:53:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 17:57:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 17:57:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 17:57:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 17:57:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 17:57:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 17:57:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 17:58:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 17:58:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 17:58:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 17:58:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 17:58:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 17:58:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 17:58:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 17:58:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 17:58:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-21 18:00:55 --> include(header.php): failed to open stream: No such file or directory
+in APPPATH\Views\sayfalar\Admin\GünlükBurçYorumu.php on line 40.
+ 1 APPPATH\Views\sayfalar\Admin\GünlükBurçYorumu.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(header.php): failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Burc_Proje\\app\\Views\\sayfalar\\Admin\\GünlükBurçYorumu.php', 40, [...])
+ 2 APPPATH\Views\sayfalar\Admin\GünlükBurçYorumu.php(40): include()
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Burc_Proje\\app\\Views\\sayfalar\\Admin\\GünlükBurçYorumu.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('sayfalar/Admin/GünlükBurçYorumu', [], true)
+ 6 APPPATH\Controllers\Menuler.php(40): view('sayfalar/Admin/GünlükBurçYorumu')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Menuler->GunlukYorumAdmin()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menuler))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-21 18:04:49 --> include(header.php): failed to open stream: No such file or directory
+in APPPATH\Views\sayfalar\Admin\BurçHesaplama.php on line 108.
+ 1 APPPATH\Views\sayfalar\Admin\BurçHesaplama.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(header.php): failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Burc_Proje\\app\\Views\\sayfalar\\Admin\\BurçHesaplama.php', 108, [])
+ 2 APPPATH\Views\sayfalar\Admin\BurçHesaplama.php(108): include()
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Burc_Proje\\app\\Views\\sayfalar\\Admin\\BurçHesaplama.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('sayfalar/Admin/BurçHesaplama', [], true)
+ 6 APPPATH\Controllers\Menuler.php(44): view('sayfalar/Admin/BurçHesaplama')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Menuler->BurcHesaplamaAdmin()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menuler))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-21 18:05:15 --> include(header.php): failed to open stream: No such file or directory
+in APPPATH\Views\sayfalar\Admin\YükselenHesaplama.php on line 81.
+ 1 APPPATH\Views\sayfalar\Admin\YükselenHesaplama.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(header.php): failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Burc_Proje\\app\\Views\\sayfalar\\Admin\\YükselenHesaplama.php', 81, [])
+ 2 APPPATH\Views\sayfalar\Admin\YükselenHesaplama.php(81): include()
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Burc_Proje\\app\\Views\\sayfalar\\Admin\\YükselenHesaplama.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('sayfalar/Admin/YükselenHesaplama', [], true)
+ 6 APPPATH\Controllers\Menuler.php(48): view('sayfalar/Admin/YükselenHesaplama')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Menuler->YukselenHesaplamaAdmin()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menuler))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-21 18:06:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 18:06:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 18:06:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 18:06:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 18:06:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 18:07:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 18:07:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-21 18:14:59 --> Invalid file: "sayfalar/Koc_Burcu.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sayfalar/Koc_Burcu.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('sayfalar/Koc_Burcu', [], true)
+ 3 APPPATH\Controllers\Burclar.php(17): view('sayfalar/Koc_Burcu')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Burclar->Koc_Burcu()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Burclar))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-21 18:15:24 --> Invalid file: "sayfalar/Koc_Burcu.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sayfalar/Koc_Burcu.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('sayfalar/Koc_Burcu', [], true)
+ 3 APPPATH\Controllers\Burclar.php(17): view('sayfalar/Koc_Burcu')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Burclar->Koc_Burcu()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Burclar))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-21 18:15:27 --> Invalid file: "sayfalar/Koc_Burcu.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sayfalar/Koc_Burcu.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('sayfalar/Koc_Burcu', [], true)
+ 3 APPPATH\Controllers\Burclar.php(17): view('sayfalar/Koc_Burcu')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Burclar->Koc_Burcu()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Burclar))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-21 18:15:40 --> Invalid file: "sayfalar/Koc_Burcu.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sayfalar/Koc_Burcu.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('sayfalar/Koc_Burcu', [], true)
+ 3 APPPATH\Controllers\Burclar.php(17): view('sayfalar/Koc_Burcu')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Burclar->Koc_Burcu()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Burclar))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-21 18:16:44 --> include(header.php): failed to open stream: No such file or directory
+in APPPATH\Views\sayfalar\Koc_Burcu.php on line 13.
+ 1 APPPATH\Views\sayfalar\Koc_Burcu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(header.php): failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Burc_Proje\\app\\Views\\sayfalar\\Koc_Burcu.php', 13, [])
+ 2 APPPATH\Views\sayfalar\Koc_Burcu.php(13): include()
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Burc_Proje\\app\\Views\\sayfalar\\Koc_Burcu.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('sayfalar/Koc_Burcu', [], true)
+ 6 APPPATH\Controllers\Burclar.php(17): view('sayfalar/Koc_Burcu')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Burclar->Koc_Burcu()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Burclar))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-21 18:27:31 --> Invalid file: "Burclar/Koc_Burcu.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Burclar/Koc_Burcu.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Burclar/Koc_Burcu', [], true)
+ 3 APPPATH\Controllers\Burclar.php(17): view('Burclar/Koc_Burcu')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Burclar->Koc_Burcu()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Burclar))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-21 18:28:21 --> Invalid file: "Burclar/Koc_Burcu.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Burclar/Koc_Burcu.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Burclar/Koc_Burcu', [], true)
+ 3 APPPATH\Controllers\Burclar.php(17): view('Burclar/Koc_Burcu')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Burclar->Koc_Burcu()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Burclar))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-21 18:29:23 --> Invalid file: "Burclar/Koc_Burcu.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Burclar/Koc_Burcu.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Burclar/Koc_Burcu', [], true)
+ 3 APPPATH\Controllers\Burclar.php(17): view('Burclar/Koc_Burcu')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Burclar->Koc_Burcu()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Burclar))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-21 18:29:41 --> Invalid file: "Burclar/Koc_Burcu.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Burclar/Koc_Burcu.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Burclar/Koc_Burcu', [], true)
+ 3 APPPATH\Controllers\Burclar.php(17): view('Burclar/Koc_Burcu')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Burclar->Koc_Burcu()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Burclar))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-21 18:30:28 --> Invalid file: "Burclar/Koc_Burcu.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Burclar/Koc_Burcu.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Burclar/Koc_Burcu', [], true)
+ 3 APPPATH\Controllers\Burclar.php(17): view('Burclar/Koc_Burcu')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Burclar->Koc_Burcu()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Burclar))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-21 18:31:55 --> Invalid file: "sayfalar/Koc_Burcu.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sayfalar/Koc_Burcu.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('sayfalar/Koc_Burcu', [], true)
+ 3 APPPATH\Controllers\Burclar.php(21): view('sayfalar/Koc_Burcu')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Burclar->Aslan_Burcu()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Burclar))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-21 18:32:08 --> Invalid file: "sayfalar/Koc_Burcu.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sayfalar/Koc_Burcu.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('sayfalar/Koc_Burcu', [], true)
+ 3 APPPATH\Controllers\Burclar.php(21): view('sayfalar/Koc_Burcu')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Burclar->Aslan_Burcu()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Burclar))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-21 18:32:58 --> Invalid file: "Burclar/Koc_Burcu.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Burclar/Koc_Burcu.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Burclar/Koc_Burcu', [], true)
+ 3 APPPATH\Controllers\Burclar.php(17): view('Burclar/Koc_Burcu')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Burclar->Koc_Burcu()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Burclar))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-21 18:33:17 --> Invalid file: "Koc_Burcu.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Koc_Burcu.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Koc_Burcu', [], true)
+ 3 APPPATH\Controllers\Burclar.php(17): view('Koc_Burcu')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Burclar->Koc_Burcu()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Burclar))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-21 18:33:21 --> Invalid file: "Koc_Burcu.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Koc_Burcu.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Koc_Burcu', [], true)
+ 3 APPPATH\Controllers\Burclar.php(17): view('Koc_Burcu')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Burclar->Koc_Burcu()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Burclar))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-21 18:33:30 --> Invalid file: "Koc_Burcu.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Koc_Burcu.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Koc_Burcu', [], true)
+ 3 APPPATH\Controllers\Burclar.php(17): view('Koc_Burcu')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Burclar->Koc_Burcu()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Burclar))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-21 18:34:14 --> Invalid file: "Koc_Burcu.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Koc_Burcu.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Koc_Burcu', [], true)
+ 3 APPPATH\Controllers\Burclar.php(17): view('Koc_Burcu')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Burclar->Koc_Burcu()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Burclar))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-21 18:34:52 --> Invalid file: "Koc_Burcu.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Koc_Burcu.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Koc_Burcu', [], true)
+ 3 APPPATH\Controllers\Burclar.php(17): view('Koc_Burcu')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Burclar->Koc_Burcu()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Burclar))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-21 18:34:55 --> Invalid file: "Koc_Burcu.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Koc_Burcu.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Koc_Burcu', [], true)
+ 3 APPPATH\Controllers\Burclar.php(17): view('Koc_Burcu')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Burclar->Koc_Burcu()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Burclar))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-21 18:35:53 --> Invalid file: "Koc_Burcu.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Koc_Burcu.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Koc_Burcu', [], true)
+ 3 APPPATH\Controllers\Burclar.php(17): view('Koc_Burcu')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Burclar->Koc_Burcu()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Burclar))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-21 18:36:57 --> Invalid file: "Koc_Burcu.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Koc_Burcu.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Koc_Burcu', [], true)
+ 3 APPPATH\Controllers\Burclar.php(17): view('Koc_Burcu')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Burclar->Koc_Burcu()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Burclar))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-21 18:48:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 18:48:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 18:48:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 18:48:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 18:48:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-21 19:14:54 --> Invalid file: "sayfalar/Burclar/Oglak_Burcu.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sayfalar/Burclar/Oglak_Burcu.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('sayfalar/Burclar/Oglak_Burcu', [], true)
+ 3 APPPATH\Controllers\Burclar.php(45): view('sayfalar/Burclar/Oglak_Burcu')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Burclar->Oglak_Burcu()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Burclar))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-21 19:14:57 --> Invalid file: "sayfalar/Burclar/Yengec_Burcu.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sayfalar/Burclar/Yengec_Burcu.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('sayfalar/Burclar/Yengec_Burcu', [], true)
+ 3 APPPATH\Controllers\Burclar.php(61): view('sayfalar/Burclar/Yengec_Burcu')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Burclar->Yengec_Burcu()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Burclar))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-21 19:18:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 19:18:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 19:18:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 19:30:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 19:38:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 19:38:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 19:38:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 19:38:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 19:38:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 19:38:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 19:39:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 19:39:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 19:40:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 19:40:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 19:41:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 19:41:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 19:41:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 19:42:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 19:42:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
